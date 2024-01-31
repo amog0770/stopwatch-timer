@@ -1,0 +1,43 @@
+*{
+  background-color: black;
+  color: white;
+  font-family: cursive;
+}
+
+body{
+  height:100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  border: 2px solid white;
+  padding: 0 50px 20px 50px;
+}
+button{
+  font-size: medium;
+  font-style: italic;
+  border: 2px solid white;
+  margin: 10px;
+}
+span{
+  font-size: larger;
+  margin-left: 20px;
+}
+
+h1{
+  border: 2px solid yellow;
+  padding: 5px;
+  border-radius: 10px;
+}
+#start
+{
+  background-color: green;
+}
+#stop{
+  background-color: red;
+}
+#reset{
+  background-color: rgb(211, 55, 153);
+}
